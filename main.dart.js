@@ -31125,16 +31125,15 @@ return A.i(A.TP(),$async$aWd)
 case 2:A.bq("Handling a background message: "+A.j(a.r))
 return A.n(null,r)}})
 return A.o($async$aWd,r)},
-xP(){var s=0,r=A.p(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e
+xP(){var s=0,r=A.p(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f
 var $async$xP=A.l(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:if($.ar==null)A.a_t()
 $.ar.toString
 q=3
 A.bq("Loading environment variables...")
-o="assets/.env"
 s=6
-return A.i($.abm().B_(0,o),$async$xP)
-case 6:A.bq("Environment variables loaded successfully from "+A.j(o))
+return A.i($.abm().B_(0,".env"),$async$xP)
+case 6:A.bq("Environment variables loaded successfully")
 A.bq("Initializing Supabase...")
 s=7
 return A.i(A.wV(),$async$xP)
@@ -31156,32 +31155,32 @@ q=1
 s=5
 break
 case 3:q=2
-e=p.pop()
-n=A.A(e)
-A.bq("Error initializing services: "+A.j(n))
+f=p.pop()
+o=A.A(f)
+A.bq("Error initializing services: "+A.j(o))
 s=5
 break
 case 2:s=1
 break
 case 5:if($.ar==null)A.a_t()
-l=$.ar
+m=$.ar
+m.toString
+l=$.bx()
+k=t.e8
+if(k.a(l.gdJ().b.h(0,0))==null)A.Q(A.ad('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
+j=k.a(l.gdJ().b.h(0,0))
+j.toString
+i=m.gIC()
+h=m.cy$
+if(h===$){l=k.a(l.gdJ().b.h(0,0))
 l.toString
-k=$.bx()
-j=t.e8
-if(j.a(k.gdJ().b.h(0,0))==null)A.Q(A.ad('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
-i=j.a(k.gdJ().b.h(0,0))
-i.toString
-h=l.gIC()
-g=l.cy$
-if(g===$){k=j.a(k.gdJ().b.h(0,0))
-k.toString
-f=new A.a6e(B.Z,k,null,A.aC(t.T))
-f.aJ()
-f.agy(null,null,k)
-l.cy$!==$&&A.ax()
-l.cy$=f
-g=f}l.aaf(new A.Kr(i,new A.VI(null),h,g,null))
-l.TK()
+g=new A.a6e(B.Z,l,null,A.aC(t.T))
+g.aJ()
+g.agy(null,null,l)
+m.cy$!==$&&A.ax()
+m.cy$=g
+h=g}m.aaf(new A.Kr(j,new A.VI(null),i,h,null))
+m.TK()
 return A.n(null,r)
 case 1:return A.m(p.at(-1),r)}})
 return A.o($async$xP,r)},
