@@ -1,11 +1,11 @@
 {
     "name": "Flo.Marcela",
-    "short_name": "flo",
+    "short_name": "Flo.Marcela",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "flo - Supply Chain Management System",
+    "description": "Flo.Marcela - Supply Chain Management System",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
